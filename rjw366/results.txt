@@ -1,0 +1,3 @@
+5. It's clear from the graphs that while a majority of the restaurants tend to maintain similar grades, the rest tend to decline in grade rather than incline. All the graphs maintain a similar shape, the only variation being the mass of the restaurants, corresponding to more store-populated areas.
+
+6.This specific form of grading restaurant's does not seem in depth enough, there's also a score field in the dataset that has numerical values that may provide a little more variation the the tendencies over time. There's also fields like food type and inspection dates so we could run a similar evaluation based a the type of restaurant or evaluate how often certain restaurants are inspected.
