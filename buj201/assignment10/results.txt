@@ -1,0 +1,11 @@
+﻿Question 5:
+
+Based on the summary tables and graphs, it appears that on average restaurant grades are improving both citywide and in each borough. Note this is a weaker conclusion than “restaurants are improving”, since it is possible that on average restaurants are not changing or are declining even though grades are improving. This could occur due to grade inflation or due to restaurants gaming the grading system (for example, by identifying easy opportunities to improve their score through changes that don't significantly reduce health risks). The other interesting result from these data is the relative infrequency of 'B' grades in the dataset. It appears that (dropping restaurants with grades still pending), 'A' and 'C' grades are more common than 'B' grades, meaning restaurants are generally either good or poor (in terms of health code compliance).
+
+Question 6:
+
+This data is useful to determine the quality of restaurants in New York City- even our analysis suggested restaurants are improving. However, our analysis was limited by using very little of the available data. 
+
+The grades (which were the target of our analysis) are determined based on integer-valued scores, with a maximum of score 156 in the data set. Letter grades are computed by binning the scores into one of three bins. (labeled 'A', 'B', or 'C') Digging even deeper, the scores are themselves an aggregate measure (since they are defined as the sum of points earned for specific violations). Thus, while our results show on average restaurant grades are improving, these various layers of aggregation potentially convolute our target, which is a measure of restaurant quality.
+
+Thus, to assess restaurant quality more rigorously, we would likely want to use a finer-grained measure. In fact, using this data, it would likely be best to define restaurant quality using a completely disaggregated measure (such as the frequency of one violation or violation class across years and across boroughs), so we can be more confident that any observed change corresponds to a well-defined change in restaurant condition. 
