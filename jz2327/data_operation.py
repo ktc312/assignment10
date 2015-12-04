@@ -99,4 +99,4 @@ def plot_grade(data, title):
     grade_dictionary_df.plot(figsize = (15,10), kind = 'line', label = index_list)
     plt.legend(loc = 'upper left')
     plt.title('All restaurants in %s' %title)
-    plt.savefig('grade_improvement_{}.pdf'.format(str.lower(title)))
+    plt.savefig('grade_improvement_{}.pdf'.format(str.lower(title.split(' ')[0])))
