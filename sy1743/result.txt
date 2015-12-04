@@ -1,0 +1,13 @@
+
+Author: Sida Ye
+
+Question 5:
+
+
+Based on bar plots over NYC and each of the five Boroughs, we can see that the number of grade A restaurants is increasing year by year. For 2014 and 2015, the number of grade A restautant does not increase a lot. It looks like it remains the same level. The proportion of grade C restaurant is much more less than grade A and grade B. It implies that a lot of restaurants are in good condition.
+
+
+
+Question 6:
+
+This data is useful for assessing the quality of restaurants in New York City. Because from this dataset, we can know the health condition for each restaurant as well as other grade and inspection information. Observiously, Manhattan has the most number of restaurants. Based on the number of restaurants for each boroughs, we can imply the number of population in each boroughs.
