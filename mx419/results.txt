@@ -1,0 +1,21 @@
+Answer: 
+
+#author: Muhe Xie
+#netID: mx419
+#date: 12/01/2015
+
+Q5: 
+Generally the total number of inspected restaurants are incresing. It might be caused by 
+the incresing number of restaurants and the increase of inspectations. Also, the number of
+GRADE A Restaurants is the largest and increases most rapidly over the time period. The number
+of GRADE C restuarants is smallest and does not increase during the time period. It means over all 
+the conditions of restaurants in NYC are improving. Also, the number of GRADE A restaurants increased 
+most rapidly before mid 2013. The number of GRADE B and C does not change much. These results are similar
+between different boroughs.
+
+Q6: 
+We can also get the information of the geographical distributions and the cuisine type of the restaurants in
+NYC. It is useful for assessing the quality of restaurants in NYC. Because the database is relatively large and 
+many of the restaurants have been inspected for more than one time, which makes the score data more reliable. It 
+also includes the violation description of the restaurants with details. To conclude, it is a very useful database
+to get the information about the quality of restaurants in NYC.
