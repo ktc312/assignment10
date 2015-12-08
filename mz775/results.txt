@@ -1,0 +1,18 @@
+Question 5
+
+From the graphs I found that grades of restaurants in NYC and its boroughs have been improving from 2011 to 2015.
+We can see that the number of restaurants with grade A has been increasing. Although there is a slight drop of this
+quantity from 2014 to 2015 for some areas, overall we can observe upward trends in all graphes.
+At the same time, the number of restaurants with grade C has been decreasing over time, and the number of restaurants
+with grade B have been relatively stable.
+I think this suggests a good sign on improvement of restaurants' quality in the city.
+
+
+Question 6
+
+I think this data set is useful in assessing the qualities of restaurants in NYC. This data set includes other useful
+information such as cuisine, zipcode, and violation description. We can use those information to find common problems
+of restaurants in the same area. Also we can find best areas for different cuisines. For example, we can find areas with
+best Italian food by finding the zipcode with most grade A Italian restaurants.
+
+
