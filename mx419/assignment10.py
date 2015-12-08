@@ -40,11 +40,7 @@ def start_analyse_grade():
         command = raw_input('if you want to contiue, please enter yes, otherwise will exit the program')
         if command!= 'yes':
             sys.exit()
-    #generate the plots
-   # print "Generating a graph of restaurants in New York City for each grade over time"
-   # df_whole_city = grade_analysis_functions.get_grade_count_values(cleaned_data)
-   # plotgraph.generate_line_graph(df_whole_city,'nyc')
-   # for boroname in cleaned_data[cleaned_data['BORO']!='Missing']['BORO'].unique():
+
     for boroname in cleaned_data['BORO'].unique():
         print "Generating the grade number satistics graph over time in "+boroname+ " ..."
         plotgraph.generate_line_graph(grade_analysis_functions.get_grade_count_values(cleaned_data[cleaned_data['BORO'] == boroname]),boroname.lower())
