@@ -6,3 +6,9 @@ Varun D N - vdn207@nyu.edu
 
 class NotADataFrameException(Exception):
 	pass
+
+class InvalidGradeList(Exception):
+	pass
+
+class InvalidColumnName(Exception):
+	pass

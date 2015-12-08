@@ -6,6 +6,7 @@ Varun D N - vdn207@nyu.edu
 
 import restaurants as res 
 import matplotlib.pyplot as plt 
+import custom_exceptions as cexcep
 import matplotlib.patches as mpatches 
 import numpy as np
 
@@ -17,6 +18,10 @@ def test_grades(grade_list):
 		   This is basically a cumulative score indicating the trend of the grades.
 	'''
 	
+	if not all(isinstance(grade, str) for grade in grade_list):
+		raise cexcep.InvalidGradeList("Pass the grade list with valid dtypes")
+
+
 	grade_trend_score = 0
 	for index in range(len(grade_list) - 1):
 		grade_trend_score -= ord(grade_list[index + 1]) - ord(grade_list[index])

@@ -46,11 +46,11 @@ class Restaurants:
 
 	def get_rows(self, column_name, column_value):
 		'''Gets the specific rows having the value - 'column_value' in the column - 'column_name' '''
-		try:
-			return self.dataframe[self.dataframe[column_name] == column_value, ]
+		
+		if column_name not in self.dataframe.columns.values:
+			raise cexcep.InvalidColumnName("Please enter a valid column name")
 
-		except KeyError as ke:
-			print str(ke)
+		return self.dataframe[self.dataframe[column_name] == column_value]
 
 	def get_unique_values(self, column_name):
 		'''Returns the unique values pertaining to the column in the dataset'''
