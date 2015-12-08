@@ -1,0 +1,18 @@
+Question 5:
+We can see that in the entire city of New York the amount of A grades to restaurants have increased through the years.
+The number of B and C grades presented an increment until the year 2013, then they were the same and after 2014
+started to decrease.
+We can see that the number of A grades is considerable higher to the other grades. Which make sense, due mostly all the
+restaurants would try to get the highest grade in order to not affect their reputation.
+We can see that all boroughs follow the same pattern. However, Staten Island is the only borough that present a decrease
+in A grades in the last year.
+
+Question 6:
+We can see that picking any restaurant in NYC, will result in a high probability of it having an A grade.
+I think we can get also more insight if we get the number of restaurants per year, and the quantity of grades.
+(We have to take in consideration that new restaurants open every year). This could allow us to see how the ratio of
+grades moves through the years.
+Now talking about the scores, it would be a good idea to normalize them. Its obvious that Manhattan has a bigger
+score due it has a larger amount of restaurants than any other boroughs. That would allow us to assess better the
+quality of the restaurants in NYC in general and in every borough.
+
