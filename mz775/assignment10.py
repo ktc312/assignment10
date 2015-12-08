@@ -8,10 +8,9 @@ def main():
     '''
     This is the main function that generates graphes and prints results
     '''
-    print '\nGenerating results...\n'
-
     raw_data = pd.read_csv('DOHMH_New_York_City_Restaurant_Inspection_Results.csv', low_memory=False)[['CAMIS','BORO','GRADE','GRADE DATE']]
     # load the data set into pandas and extract the useful columns
+    print '\nGenerating results...\n'
 
     sorted_data = data(raw_data).clean_data()                                              # get the cleaned data set
 
@@ -42,3 +41,5 @@ if __name__ == '__main__':
         print 'Incorrect types, please re-run the program if you would like to continue'
     except ValueError:
         print 'Invalid values, please re-run the program if you would like to continue'
+    except IOError:
+        print 'IOError, please add the data set to the same directory as assignment10.py then re-run the program '
