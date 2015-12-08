@@ -1,5 +1,7 @@
 import unittest
+import numpy as np
 from RestaurantDataController import RestaurantDataController
+import sys
 
 class RDCTestCase(unittest.TestCase):
     """Test case for RestaurantDataController"""
@@ -36,8 +38,7 @@ class RDCTestCase(unittest.TestCase):
         self.assertEqual(1, self.rdc.test_grades(improving_grades2), 'improving grades 2')
 
     def test_hard_declining_grades(self):
-        declining_grades1 = ['B', 'A', 'B', 'B', 'C', 'D', 'B', 'C']
-        declining_grades2 = ['B', 'A', 'B', 'B', 'C', 'D', 'C', 'B']
+        declining_grades1 = ['B', 'A', 'B', 'B', 'C', 'C', 'B', 'C']
         declining_grades2 = ['B', 'A', 'B', 'B', 'C', 'C', 'C', 'B']
         self.assertEqual(-1, self.rdc.test_grades(declining_grades1), 'declining grades 1')
         self.assertEqual(-1, self.rdc.test_grades(declining_grades2), 'declining grades 2')
@@ -51,6 +52,24 @@ class RDCTestCase(unittest.TestCase):
     def test_restaurant_grades_for_restaurants(self):
 
         #print self.rdc.test_restaurant_grades('50044548')
-        print self.rdc.get_restaurant_grades(50044548)
-        print self.rdc.get_restaurant_grades(11111)
-        print self.rdc.get_restaurant_grades('11111')
+        self.assertEqual(['A'], self.rdc.get_restaurant_grades(50043624), 'Get 50043624 - only one grade')
+        self.assertEqual(0, self.rdc.test_restaurant_grades(50043624), 'Test 50043624 - only one grade')
+
+        self.assertEqual(['A', 'A', 'A'], self.rdc.get_restaurant_grades(40356018), '40356018 - all As')
+        self.assertEqual(0, self.rdc.test_restaurant_grades(40356018), '40356018 - all As')
+
+        self.assertEqual(['A'], self.rdc.get_restaurant_grades(40358429), '40358429 - all As')
+        self.assertEqual(1, self.rdc.test_restaurant_grades(40358429), '40358429 - all As')
+
+        self.assertEqual(np.nan, self.rdc.test_restaurant_grades('11111111'), 'Test misspecified CAMIS')
+        self.assertEqual(np.nan, self.rdc.test_restaurant_grades(0), 'Test CAMIS with no results')
+
+
+    def test_sum_trends(self):
+        sum_nyc = self.rdc.sum_trends_for_geography("nyc")
+        sum_boros = self.rdc.sum_trends_for_geography("Manhattan") + \
+                    self.rdc.sum_trends_for_geography("bronx") + \
+                    self.rdc.sum_trends_for_geography("BROOKLYN") + \
+                    self.rdc.sum_trends_for_geography("Queens") + \
+                    self.rdc.sum_trends_for_geography("Staten island")
+        self.assertEqual(sum_nyc, sum_boros, 'NYC vs boros added up')
