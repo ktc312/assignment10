@@ -1,0 +1,9 @@
+Q5
+Seems that the program was launched on 2011 and there were not many restaurants in it at that time. However, as the time passed by, more restaurants joined the program and the number seems to be pretty much the same in the last years (2014/2015). 
+In almost all the boroughs, there are more A restaurants than B or C ones. The A ones have increased over the time and the only borough that has a decrease in the number of A restaurants is Staten Island, which also has the lowest number of places. As Staten Island is small, this result does not affect the overall NYC result, where it is possible to see that there are more A restaurants than any other one.
+*A line plot y grade was chosen, but another option to graph would be bar chars per year. This was discarded because as more years there are, the more crowded the graph would be. 
+
+Q6
+I think the database is a good one in order to assess the quality of restaurants, because of the variety of data which include the grades of restaurants, its defficiencies, type of food they serve, boro, address, and more. These features can help to make comparisons, and maybe as a guide to avoid common defficiencies. However, I believe that it is better to do the analysis from year 2013 or 2014, because in the first year the information was almost non existant. 
+As an example  of what type of analysis can be made, from the dataset one can generate a graph with percentages of each restaurant grade. Or even a confussion matrix to see how was the migration from grade to grade and how many (or percentage) stayed in the same grade. 
+
