@@ -1,0 +1,24 @@
+1. We can conclude that over the years 2012, 2013, 2014 and 2015, there is a general
+increase in number of restaurants receiving an A grade. We can see this in the
+grade_improvement_nyc graph, which includes data for all five boroughs. The only
+borough in which we don't see a steady increase in A grades is Staten Island. 
+However, this could also be due to restaurants having not been graded yet, or 
+their data being missing from the dataframe. 
+
+2. Using this data we could investigate a potential correlation between restaurant
+location and inspection grade, to see if there is any difference in the quality of
+restaurants or a difference in the inspectors giving the grades in each of the
+boroughs. We could also look at the type of cuisine, and if that has an effect 
+on the grade of the restaurant. For example, we may see less bakeries receiving a
+low score, because they aren't generally dealing with meat and other food items
+that require special attention. In addition, there are likely areas within each
+borough that have a higher number of A-grade restaurants or C-grade restaurants.
+We could investigate this using the zipcode column, and see if zipcode has an effect
+on inspection grade.
+
+3. I don't believe this data is a useful source for assessing the quality of 
+restaurants because there is ambiguity in the meaning of an inspection grade. 
+We don't know exactly what the inspection process is, and if it varies over the 
+different areas of New York City. Also, an inspection grade of 'A' does not 
+imply that a restaurant is a 'good' restaurant, it only implies that it is
+in compliance with the restaurant requirements of New York (whatever they may be). 
