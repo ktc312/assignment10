@@ -9,11 +9,12 @@ def test_grades(grade_list):
     '''
     The function takes a list containing grades as input,
     then return 1 if the grade is improving, 0 if the grade stays the same, -1 if the grade is declining.
-    Provide a justification for how you calculate this value: I just compare the earlist and the most recent grade to see whether it is improving or not.
+    
+    ***Provide a justification for how you calculate this value: I just compare the earlist and the most recent grade to see whether it is improving or not.
     '''
 
     #dictionary to convert grades to numeric numbers. Easy for comparing the grade.
-    grade_numeric_dictionary = {'A':1, 'B':2, 'C':3, 'P':4, 'Z':5}
+    grade_numeric_dictionary = {'A':1, 'B':2, 'C':3}
     
     #get a 'unique' list,e.g. ['A', 'A', 'C', 'C', 'B'] would have a return of ['A','C','B'].
     grade_list_unique = []
@@ -49,12 +50,13 @@ def plot_grade_dictionary(data):
     The function takes a dataframe as input,
     Then it calculates the number of each grade respectively grouped by different date.
     The return is a dictionary: keys are different dates and values are a list of total number of each grade.
+    *** The function can be realized by dataframe.grouby().
     '''
 
     grade_dictionary = {}
     for i in range(data['DATE'].unique().shape[0]):
         data_given_date = data[data['DATE'] == data['DATE'].unique()[i]]
-        a,b,c,p,z = 0,0,0,0,0
+        a,b,c= 0,0,0
         # each time a certain grade appears, counts + 1.
         for j in range(len(data_given_date['CAMIS'])):
             if j != 0:
@@ -67,10 +69,6 @@ def plot_grade_dictionary(data):
                         b = b + 1
                     elif data_given_date['GRADE'][j:j+1].values == 'C':
                         c = c + 1
-                    elif data_given_date['GRADE'][j:j+1].values == 'P':
-                        p = p + 1
-                    elif data_given_date['GRADE'][j:j+1].values == 'Z':
-                        z = z + 1
             else:  #for i = 0 where the iteration is initiated skip the if loop above.
                 if data_given_date['GRADE'][j:j+1].values == 'A':
                     a = a + 1
@@ -78,11 +76,7 @@ def plot_grade_dictionary(data):
                     b = b + 1
                 elif data_given_date['GRADE'][j:j+1].values == 'C':
                     c = c + 1
-                elif data_given_date['GRADE'][j:j+1].values == 'P':
-                    p = p + 1
-                elif data_given_date['GRADE'][j:j+1].values == 'Z':
-                    z = z + 1
-        grade_dictionary[data['DATE'].unique()[i]] = [a, b, c, p ,z]
+        grade_dictionary[data['DATE'].unique()[i]] = [a, b, c]
     return grade_dictionary
 
 def plot_grade(data, title):
@@ -93,7 +87,7 @@ def plot_grade(data, title):
 
     plt.figure()
     grade_dictionary = plot_grade_dictionary(data)
-    index_list = ['A', 'B', 'C', 'P', 'Z']
+    index_list = ['A', 'B', 'C']
     grade_dictionary_df = pd.DataFrame(grade_dictionary, index = index_list).T
     grade_dictionary_df.index = pd.to_datetime(grade_dictionary_df.index)
     grade_dictionary_df.plot(figsize = (15,10), kind = 'line', label = index_list)
