@@ -1,0 +1,12 @@
+5) Evidence suggests that grades have been improving. After measuring individually by restaurant, how many of them have improved grades over time, we can conclude that the trend is positive.
+Furthermore, after reviewing how grades evolve over time, the amount of "A" grades has been growing consistently, both for the whole city and for individual boroughs. We cannot say the same for the amount of "B" and "C" grades, which have grown at first, but then decreased in some cases.
+
+6) The dataset contains many other columns that where not used for this specific analysis, but could be used to make several further analysis. For example, by using the DBA column, we could analyze the grade improvement for a specific restaurant branch such as "Wendy's". Or by using "Inspection Type" we could analyze the grade improvement by different types of inspections.
+I we restricted ourselves to the same columns as we used in our analysis, we could do some further analyses as well. For example, we could analyze how many inspections each restaurant received, or which are the boroughs that are inspected more frequently.
+
+Overall, I think that this data is useful to assess the quality of restaurants in NYC, but there are some caveats. More specifically, the charts that we built suggest that there was an increase in the number of inspections or the number of restaurants inspected every year (it could be a growth in the number of open restaurants as well, but I do not think that such growth was as big as charts show). 
+
+We should maybe focus in the proportion of grades each year, and we would still be assuming that restaurants are picked at random for inspections. In conclusion, I think that we should first better understand how, when and where was this data gathered before making conclusions.
+
+ 
+
