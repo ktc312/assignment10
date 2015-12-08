@@ -155,11 +155,12 @@ class RestaurantDataController(object):
 
         # Get counts and percents
         counts, pcts = self.get_grade_counts_by_year(self.cut_to_geography(geography))
-
+        counts.fillna(value=0, inplace=True)
+        pcts.fillna(value=0, inplace=True)
         # Create axes and figure
         fig, axes = plt.subplots(2, 1, sharex=False)
-        fig.set_size_inches(8.5, 11)
-        fig.subplots_adjust(right=2)
+        fig.set_size_inches(7, 11)
+        fig.subplots_adjust(right=.8)
 
         percentage_graph(pcts, axes[0])
         bar_graph(counts, axes[1])

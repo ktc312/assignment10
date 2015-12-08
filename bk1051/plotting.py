@@ -45,3 +45,4 @@ def bar_graph(data, axes):
     '''Make bar graph of counts'''
 
     data.plot(kind='bar', ax=axes)
+    axes.set_title("Number of Restaurants Earning Each Grade", y=1)

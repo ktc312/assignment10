@@ -1,0 +1,7 @@
+Author: Brian Karfunkel (bk1051)
+Assignment 10
+12/8/2015
+
+5. The vast majority of ratings are "A"s. From the data, it looks like the program took some time to ramp up, as there are far more grades issued in 2013 and on than there were in 2011. It may be the case that the number of restaurants has been increasing as well. Staten Island and Queens had noticeably lower ratings in 2011, but since then have moved toward the city overall.
+
+6. Because so many of the restaurants receive A grades, it's hard to discern much from the grade data. You could get more information by looking at the actual violations; the raw data is actually at the violation level, not at the grade level.
