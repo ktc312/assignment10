@@ -23,6 +23,7 @@ def main():
             try:    # try to catch the invalid input and still run the program
                 x = raw_input('Import data file? \nPlease enter Yes or No: \n') 
                 if x in ['Yes', 'yes', 'Y', 'y']:
+
                     data = pd.read_csv('DOHMH_New_York_City_Restaurant_Inspection_Results.csv', low_memory=False)
                     data = cl.cleanData(data).process_data()
                     print "\nData is cleaned!"
@@ -59,6 +60,8 @@ def main():
 
             except KeyError:
                     print "\n Invalid input! \nPlease follow input instruction.\n"
+            except IOError:
+                    print "\n ERROR: NO DATA\n"    
     except KeyboardInterrupt, ValueError:
         print "\n Interrupted!"
     except ArithmeticError, OverflowError:
