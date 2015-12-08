@@ -1,0 +1,5 @@
+# Author: Lizhen Tan
+Q5: From the saved graphs, we can see that The grades generally increase from 2011 to 2014 for all boroughs and NYC. However from 2014 to 2015, grades seems to change so little and in some boroughs, they even decrease. The increase may be due to more grand opening restarunts and the decrease may be due to shut down of bussiness. The grades cannot give a 100% sure answer, but it provides a general trend for review. 
+
+Q6:
+This dataset actually provides quite a lot of information. For score, we can know how many violation a restaurant has.(The higer the score, the worse job a restaurant does.) From the violation descrition and critical flag, we can know how severe the violations are for a particular restaurant. The data is indeed useful for assessing the quality of restaurants in New York City. 
