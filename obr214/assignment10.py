@@ -3,6 +3,10 @@ from restaurant_grades import RestaurantGrader
 
 __author__ = 'obr214'
 
+"""
+This program creates a score according to the grades of the restaurants in each of the 5 boroughs of NYC.
+It also creates the plots for the number of grades in each borough.
+"""
 
 def main_restaurants_quality():
 
