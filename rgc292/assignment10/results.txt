@@ -1,0 +1,31 @@
+Question 3.
+
+-I converted the ordered grades by date for a given restaurant into weighted numbers
+which takes into account the value of a grade compared to another one. In sequence, 
+ I used the numpy diff() function that takes an array and returns an array having
+the differences between elements on position array[n+1] and array[n]. Once having
+the output (output[n]=array[n+1]-array[n+1]), I calculated the sum of its elements.
+If the sum is above 1 I assigned 1, if below 1 I assigned -1, and if neither one
+of them I assigned 0.
+
+Question 5.
+
+- The grades of the restaurants are improving over time. Most of the
+restaurants seem to have achieved better grades over the past five years.
+
+Question 6.
+
+-It is possible to see that the descend sequence of Borough having more restaurants
+graded as "A" is Manhattan > Brooklyn = Queens > Bronx > Staten Island. Also, it
+seems that Manhattan has the highest concentration of restaurants among the boroughs,
+while Staten Island has the least.
+Moreover, there is a more variety of grades being given now. In 2015 grades such as
+'A','B','C','P',and 'Z' were given while in 2011 the grades were basically 'A' or 'B'.
+I think that the grades can give a reasonable idea in relation to the level of
+hygiene observed among restaurants. For example, if a restaurant received an 'A',
+there is less chance to ingest any contaminated food from its products. Although,
+some restaurants have received an 'A' presenting violations that can lead to 
+bad consequences to customers. Therefore, an 'A' is not a stamp of perfection.
+On the other hand, the grades do not offer good information on the quality of the
+products with regards to taste.
+ 
