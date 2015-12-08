@@ -1,0 +1,5 @@
+I removed the dataset from the directory sl3368.
+
+So, please first download the data file from website, and then put this data under the directory sl3368
+
+After doing this, you can run this program using 'python assignment10.py'.
