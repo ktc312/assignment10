@@ -1,0 +1,20 @@
+Author: kk3175
+Date: 12/8/2015
+Class: DSGA1007, Assignment 10
+
+
+(5) What conclusion can you draw about the grades? Write a short statement.
+From the grade scores, we can see that restaurant grades in NYC are improving over time for all of NYC and for each individual borough. The grade improvement graphs allow use to see that there are more A grades than B or C grades (for all of NYC and for each individual borough). It also appears that the A grades are generally increasing while the B and C grades are generally decreasing or holding steady.
+
+
+(6a) What other information can you find out using this data? 
+This information is also useful for seeing the number of restaurants in NYC that are graded, which reflects how many restaurant inspections the NYC Department of Health and Mental Hygiene (DHMH) perform. According to the DHMH website, the grading system began in July 2010, so it is interesting to see how the DHMH is ramping up the number of restaurant inspections they perform since the inception of the grading system.
+
+
+(6b) Is the data useful for assessing the quality of restaurants in NYC? Write a short statement.
+* For this question I am making the following definition assumptions:
+(1) 'quality' refers to the hygiene quality of a restaurant
+(2) 'restaurants in NYC' refers to all existing restaurants in NYC
+
+The data may or may not be useful for assessing the overall hygiene quality of all the restaurants in NYC. It would require further information to assess whether the restaurants that were inspected and graded are representative of all restaurants in NYC, such as understanding how the DHMH selects restaurants for inspection, and how many total restaurants there actually are in NYC.
+
