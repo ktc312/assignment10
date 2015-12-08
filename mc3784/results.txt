@@ -1,0 +1,11 @@
+Question 5
+From the plots we see that all the grades are growing over the last years. 
+That could just mean that over time there are more and more restaurants that are graded. 
+We can also notice that the number of A increases much more than the number of the other grades. 
+That could mean that the quality of the restaurant is improving.
+
+Question 6
+Other information could be retrieved from this dataset. 
+For example the same analysis we did with the granularity of the boro could be done using the zip code.
+Or other kind of analysis could be done using other fields in the data set, such as the VIOLATION DESCRIPTION. 
+It could be interesting to understand which kind of violation are more common in anyone of the boros.
