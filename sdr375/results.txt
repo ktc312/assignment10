@@ -1,0 +1,14 @@
+Few observations in the graphs:
+
+1) There is significantly more A grades than B's and C's
+2) For all boroughs, The number of A's increase over the years, with the exception of staten island
+3) The proportion of A's B's C's are similar, from borough to borough.
+
+Other information we can obtain from this dataset:
+
+1) We have data available on the violation. Hence we can map out the infractions to find out "zones" where a certain infraction is common and take action to resolve this issue in the specific zones.
+
+2) We can find patterns in types of violations among a certain chain of restaurants, or a restaurant type. This could aid investigation into brand evaluation and estimating brand quality.
+
+
+
