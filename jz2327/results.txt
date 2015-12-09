@@ -1,0 +1,22 @@
+# DS-GA-1007 Assignment 10
+# Author: Junchao Zheng
+
+Question 5: What conclusion can you draw about the grades? 
+
+Answer here: 
+
+1. In general, the number of restaurants which get grade A is increasing during this period both for NYC or in different boroughs. And the number of restaurants which get grade A is much more than the number of restaurants which get other grades.
+
+2. In general, the number of restaurants which get grade B, C remains almost same during this period both for NYC or in different boroughs. 
+
+3. Though, for some boroughs like BRONX and STATEN ISLAND, the increasing trend is not apparant while in the rest boroughs the increasing trend is easy to see.
+
+Question 6: What other information can you find out using this data? Is the data useful for assessing the quality of restaurants in New York City?
+
+Other Information:
+
+1. While the number of restaurants which get grade A is increasing, the number does have some seasonal patterns: from March to September the number is high while from September to next year's March the number is relatively low.
+
+2. The number of restaurants in Manhattan is the largest while Staten island has the least restaurants. It may suggest that the population in Manhattan is the largest.
+
+I think the data is useful for assessing the quality of restaurants in New York City because the increase of the number of restaurants which get grade A shows the quality is improving. Also the seasonal pattern shown in the plots demonstrates the fluctuation of the quality of restaurants in one year.
