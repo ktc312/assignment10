@@ -1,0 +1,8 @@
+By normalizing the data according to year I was able to make a visualization where the proportion of grades of A,B and C (for each year) are directly seen by the viewer as opposed with the traditional stacked bar chart  where the height gives the number of restaurants.  I felt this was appropriate because we are not interested in the raw number of grades but in general trends in the increase or decrease of grade (ignore that the number of restaurants has increased).
+
+This dataset could be used for analyzing the failure of restaurants as it relates to their health code grade; maybe taking into account different factors such as borough or type of restaurant.
+We could use the geographical data to see if their are any finer grain trends in the grades.
+We could look at categories of restaurants combined with their grades.  Then when we examine the history of a restaurants grades it can be in the context of what other similar restaurant grades were.  
+
+
+
