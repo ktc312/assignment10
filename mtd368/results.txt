@@ -1,0 +1,8 @@
+Question 5 -- We can see that the grades per restaurant are improving over time and we can see this reflected in the figures because as the total number of A grades increase over time, while the total number of B and C grades holds steady, which indicates restaurants are improving from the lower grades to A grades.
+
+Question 6 -- Some other information we could find using this data are:
+
+1. An approximation of the total number restaurants in NYC.
+2. An approximation of the overall health of NYC's economy, because increased restaurants indicate restaurant owners are optimistic and by extension restaurant patrons are willing to spend money.
+
+To determine if this information is useful in determining the qaulity of a restaurant, we'd first need to define the defineaiton of "qaulity", but assuming this term strictly refers to the sanitary status of the restaurant, we could assess the quality of restaurants in the NYC area.  We could plot the average trends of each restaruant averged together, so we could see how the trend across all restaurants are changing.  We could timestamp the grade change as we calculate the improvement or deterioration and then average across all restaurants to see the trend change across all restaurants.
