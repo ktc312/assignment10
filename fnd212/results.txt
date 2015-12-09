@@ -1,0 +1,6 @@
+#author: fnd212
+
+5. Grades are overall improving over time according to this analysis, both in general in NYC and in each neighborhood, with an increasing number of A rated restaurants and the other rates decreasing. Also it can be seen that the overall number of restaurants is increasing. 
+
+6- The data is very useful for the mentioned assesment. A deeper analysis can be driven with all the ammount of available data. It might be interesting to analyze how many of the restaurants in which critical flags where found evolved over time. 
+A more detailed study can be achieved with the same data using the score instead of just the rate. 

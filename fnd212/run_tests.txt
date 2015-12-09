@@ -1,0 +1,5 @@
+To run the tests position the working directory in the main folder of the program and excecute: 
+
+python -m unittest discover ./tests
+
+Tests code is stored in ./tests folder. 
