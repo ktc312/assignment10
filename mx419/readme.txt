@@ -1,0 +1,2 @@
+1 Put the data file DOHMH_New_York_City_Restaurant_Inspection_Results.csv under the current directory mx419 so that the program can work.
+2 The functions in calculating Q4 and plotting Q5 may take a bit long time. Please be patient to wait.
