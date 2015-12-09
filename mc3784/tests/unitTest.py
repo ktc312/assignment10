@@ -11,13 +11,13 @@ from mc3784 import assignment10
 class Test(unittest.TestCase):
     restaurants=""
     
-    def loadingTest(self):
-        self.restaurants = assignment10.loadRestaurant()
+    def testload(self):
+        self.assert_(assignment10.loadRestaurant(),"")
+        
     
-    def gradingTest(self):
-        self.restaurants.test_restaurant_grades("40363093")
-        self.restaurants.test_restaurant_grades("30075445")
-        self.restaurants.test_restaurant_grades("50043387")
+    def testGrades(self):
+        self.assertIn(assignment10.loadRestaurant().test_restaurant_grades("40363093"), [-1,1,0], "")
+        
         
 if __name__ == "__main__":
     unittest.main()
