@@ -1,0 +1,6 @@
+5.
+In general, quality of restaurants in NYC is improving. As we can see from the plots, the number of restaurants with grade A increases significantly over the last 5 years, while for lower grades the number drops slightly. One reason is that since we clean the data, some restaurants are removed from the data set. To make strong conclusion about the overall change in quality, we need to do more validation.
+
+6.
+We can find out that more restaurants are undergoing this quality check and the total number of restaurants increases. The data is useful, but we need to put together more detailed information to perform a comprehensive analysis (for example, differentiate restaurants based on price range, since expensive restaurants tend to have higher quality, but more people dine in at average restaurants).
+
