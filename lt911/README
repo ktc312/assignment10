@@ -1,0 +1,11 @@
+Author: Lizhe Tan
+
+1) Please have your dataset downloaded from https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/xx67-kt59 before you run the program. 
+
+2) Program can be started by typing:
+	python assignemnt10.py 
+
+3) Unittest can be run by typing:
+	python Test.py
+
+4) Ansers to Q5 and Q6 can be found in results.txt
