@@ -1,0 +1,30 @@
+From the graphs:
+
+General inspection:
+If we notice the graph for all the restaurants we can notice that in general all grades A,B,C are increasing from 2011 to 2013. From 2013 to 2015 Grade A is increasing but Grades 'B' and 'C' are decreasing which we can consider as the strong evidence of improvement of New York Restaurants on an average.
+
+Individual inspection for each borough:
+
+1. MANHATTAN : It is same as general behaviour except for 2014 to 2015 count of grade A is near to constant. Which is not good sign for Manhattan restaurants.
+2. QUEENS : We can see the behavious is same as general behaviour. Improvement is very good for last year.
+3. BRONX : Performace is same as QUEENS Restaurants
+4. STATEN ISLAND : For 2014-2015, Number of count for Grade A is descreased by very large number. Which is very Bad sign for STATEN ISLAND Restaurants.
+5. BROOKLYN : Performace is same as QUEENS and BRONX Restaurants
+
+From the Data:
+
+We got below values as an analysis value for each borough,
+
+Sum over all restaurants grades analysis values for borough  BRONX  is =  510
+Sum over all restaurants grades analysis values for borough  BROOKLYN  is =  1238
+Sum over all restaurants grades analysis values for borough  MANHATTAN  is =  2148
+Sum over all restaurants grades analysis values for borough  STATEN ISLAND  is =  177
+Sum over all restaurants grades analysis values for borough  QUEENS  is =  1117
+
+As we can see this numbers shows that overall from 2011 to 2015, restaurants performance is improving. But these numbers doesn't give us the idea about how the restaurants performed for last year which is more important.
+From the graphs you can come to know about Bad performace of MANHATTAN and STATEN ISLAND for the last year (2014-2015), which you can not find using this data values.
+
+My Logic for the function "test_grades":
+
+This function decides whether the grades of the perticular restauraant is increasing or decreasing. We use the weights for grades A,B and C. And we check for each pair of grades whether they are increasing or decreasing.
+We weight this difference using the time. As an example Grades in 2015 are more important than grades in 2011. So we multiply the difference by (i+1). So most recent change will be recorded with more weight.
