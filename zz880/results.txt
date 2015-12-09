@@ -1,0 +1,10 @@
+Question 5:
+From the graphs, we can observe that in all the boroughs, most restaurants maintained same grades from 2010 to 2015,
+and the there are more declined restaurants than improved restaurants. Manhattan has most restaurants and State Island
+has least restaurants.
+
+Question 6:
+In this analysis, we only used the grades of each restaurants which have only three levels "A", "B" and "C". The reason
+why most restaurants stayed the same is majority of restaurants have grade "A" in the beginning of this period and there
+is no room for them to improve. There is also a score field in the dataset which provided more detailed information and
+we can use the score to obtain a more precision report.
