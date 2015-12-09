@@ -1,0 +1,5 @@
+Author: Laura Buchanan
+
+5. We can conclude that in general, the grades decrese over time.  The method I using was to compare the first grade a restaurant receives with the last grade the restuarant receives.  With this approach, we see that in every borogh, more restaurants have an decrease in grade than an increase in grade.  However, it should be noted that the majority of restaurants' grades remain unchanged between their first and last evaluation.  
+
+6.  It would be interesting to use this data to determine which violations are the most frequent across restaurants.  This could be done with a text analysis of the description of the complaint or with the complaint ID.  This could inform the city of whether there are patterns of quality issues across the city that could be addressed with programs like food management training.  
