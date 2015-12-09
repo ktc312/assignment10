@@ -14,7 +14,7 @@ class loadRestaurant():
         """
             Constructor of the class that load the data in the file DOHMH_New_York_City_Restaurant_Inspection_Results.csv
         """
-        df=pd.DataFrame.from_csv('../DOHMH_New_York_City_Restaurant_Inspection_Results.csv')
+        df=pd.DataFrame.from_csv('DOHMH_New_York_City_Restaurant_Inspection_Results.csv')
         self.df = df.dropna()
         self.df = self.df[self.df.BORO != "Missing"]
         
