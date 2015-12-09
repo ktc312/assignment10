@@ -1,0 +1,6 @@
+Question 5:
+Most restaurants’ grades stay the same from year 2010 to 2015. There are more improving restaurants than declining restaurants. The distributions of ‘Decline, Stay the Same, Improve’ are very similar in the five Boroughs. With no doubt, Manhattan has the highest amount of restaurants.
+
+Question 6:
+Why most restaurants stay the same? There are a couple reasons. First, it's because of the restaurants' initial grades. Majority restaurants in the “stay the same” category were already GRADE A restaurants in the begging year, so there is no room for improving in the ‘A,B,C’ grading system. Another reason could be lots new restaurant opened recently; since there is only one grade available in the dataset, they are put in the ’stay the same’ category as well.
+Yes, the data is useful for assessing the quality of restaurants. We can further our analysis by cutting the current 3 categories “Decline, Stay the Same, Improve” into smaller categories, such as: one degree improvement( B->A), two degrees improvement(C—>A), etc.
