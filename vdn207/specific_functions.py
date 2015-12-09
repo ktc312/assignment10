@@ -91,10 +91,13 @@ def get_grade_counts(year_groupby, years):
 		except KeyError:
 			grade_C.append(0)
 
+	
 	return grade_A, grade_B, grade_C
 
 def plot_grade_improvement(restaurants_obj, plot_name):
 	'''Plots the grade improvement in NYC over time (years)'''
+
+	plt.close('all')
 
 	years = restaurants_obj.get_unique_values('YEAR')
 	years.sort()
@@ -143,5 +146,4 @@ def plot_grade_improvements_by_borough(restaurants_obj):
 	boroughs = restaurants_obj.get_unique_values('BORO')
 
 	for borough in boroughs:
-		borough_obj = res.Restaurants(groupby_boro.get_group(borough))
-		plot_grade_improvement(borough_obj, 'grade_improvement_' + borough.lower() + ".pdf")
+		plot_grade_improvement(res.Restaurants(groupby_boro.get_group(borough)), 'grade_improvement_' + borough.lower() + ".pdf")

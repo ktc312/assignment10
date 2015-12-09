@@ -1,0 +1,21 @@
+Analysis of the grades of NYC over years
+----------------------------------------
+
+Over the years, a lot of restaurants have been evaluated. In 2011, very few restaurants were evaluated. But, gradually, till 2015,
+the number of restaurants graded has increased. Most of the restuarants graded have got an A grade, some have B grade and few C grade.
+
+But, from 2014 to 2015, there is a small difference in the number of restuarants across all the grades.
+
+
+Bronx
+-----
+The number of restaurants graded has gone down over the years. But, the typical trend is that most resturants have A > B > C.
+
+Queens, Manhattan, Staten Island have a decreasing trend in the number of restaurants graded. 
+
+Possibile explorations from data
+--------------------------------
+-> We can classify the different cuisine types and find which ones have been graded best and worst over time.
+-> We can analyze the violation description and find out the primitive mistakes. This helps in understanding the rules that are being hugely violated or taken less seriously. 
+
+The data has enough restaurants to address the quality of the restaurants. And, the fact that the data is available over 5 years gives a good backing to carry out quality analysis.
