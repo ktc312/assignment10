@@ -1,0 +1,7 @@
+result:
+
+(5)
+Through looking at the grades, we can see that the total number of restaurants in NYC is significantly increasing over this period and the number of the A grade restaurants has the most increase. At the same time, there is no obvious change in the number of C grade restaurants. This means that the overal quality of the restaurants in NYC is increasing while the number of the restaurants is increasing. The situations of different areas are quite similar.
+
+(6)
+This data is very useful for assessing the quality of restaurants in NYC beyond the grade change over time. For example, the data includes the cuisine types of restaurants which can be used to evaluate the quality of different types of restaurants and help the customers to make real life decisions. Also, the data includes the zip code from which we can assess the quality of restaurants in more specific locations. For example, if some travelers are looking for somewhere to live when they come to visit NYC and they want to live in a place where the restaurants have higher quality. Then we can give them some advice according to the data here. 
