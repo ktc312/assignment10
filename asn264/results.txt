@@ -1,0 +1,15 @@
+Author: Aditi Nair (asn264)
+Date: December 8 2015
+
+(5)
+
+From the graphs it appears that the overall number of A's is increasing over time. The number of B's and C's increases in 2012 then seems to follow a loosely sinusoidal pattern before dropping off in recent months. This doesn't account for the fact that, over time, there are more grades in general. However, from looking at the line graphs, one could estimate that the ratio of A grades to B grades and C grades may have improved somewhat over time. Still, it is not obvious from the graphs how frequently each restuarant in the database is inspected. Some of the variation may be due to the fact that not all of the restaurants are inspected at the same time or at the same frequency.
+
+
+(6)
+
+This data is very useful for inspecting the overall health quality of restaurants in NYC. I think it may be more useful to inspect the ratios of A grades to B grades to C grades over time, controlling different boros and/or types of cuisine. Moreover, I think it would be more interesting if, for each restaurant in the database, we applied the test_grades function to its grades over time, and then analyzed the distribution of increasing, decreasing, and "stays the same" restaurants. It may be even more interesting to modify this analysis by looking at all restaurants that started with a specific grade (A, B, or C), and then looking at the distribution of increasing, decreasing, or "stays the same", potentially controlling for borough and/or cuisine type. 
+
+I think there are many other uses for this database. Assuming that all of the operating restaurants in a borough must be inspected, we can track the number of restaurants in a borough (or in NYC) over time and the types of restaurants (by cuisine) in a boro (or in NYC) over time. 
+This may be an interesting economic or cultural analysis. Moreover, by reviewing the violation codes and doing a textual analysis of the violation descriptions, it is possible to see what kind of rules restaurants have a hard time abiding by. By controlling for the type of cuisine, we may be able to see that different kinds of restaurants have difficulty in abiding by different subsets of rules. For example, a sushi restaurant is probably more likely to incur violations for improperly storing raw seafood products than an a ice cream restaurant. This kind of analysis may be useful to health inspectors themselves because they can better understand what kind of problems to look for when inspecting different kinds of restaurants.  
+
