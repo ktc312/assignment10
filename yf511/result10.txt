@@ -1,0 +1,4 @@
+5 According to the plot, we can see that the restaurant in grade A is increasing. During march 2014 to june 2015, the number increased only few but from 2012 to 2013, a lot of restaurant have been upgraded to A. Besides that, a few new restaurants are also opening.from 2011 to 2013, an increasing number of restaurant in each borough received grade C except Staten Island from 2011 to 2012 
+6 the data is useful for analyzing the quality of restaurant. We can go through the data deeper to find out the reasons for upgrading or downgrading.
+we can get more information from the data like growth in number of restaurant by borough, zip code and etc. 
+The dataset didn’t suitable for assessing the quality of food which is important for customers to think about.
