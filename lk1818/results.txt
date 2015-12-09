@@ -1,0 +1,7 @@
+Qustion 5. 
+
+We can see that from the plots that the number of grade A restaurants are dominant in all five boros and in total. And the number of grade A restaurants have increased a lot since 2012 (there aren't many records in 2011). The number of grade B and grade C restaurants haven't increased since 2013. This is a positive fact because the number of restaurants has increased a lot since then, which means the overall quality of NYC restarants is at a very good level.
+
+Question 6.
+
+This data can be useful in many ways. First of all, it is a robust source for assessment of the conditions and qualities of NYC restaurants. It tells about how healthy and hygiene these restaurants are. Also, we can find out what problems they have, from their inspection notes upon each inspection. We can also use this to compare these five boros to get a sense of relative population, socio-economic status, etc. 
