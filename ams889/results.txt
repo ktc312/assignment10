@@ -1,0 +1,15 @@
+Author: Ams889
+
+Question 5:
+From our graphs it appears as though more A's are awarded as time passes while the number of B's and C's remains relatively stable.
+This would suggest that grades are getting better or simply more restaurants are getting rated with A's rather than the restaurants rated in the past
+getting improved scores. Perhaps the guidelines have changed and it is easier to get an A. From the sum of the borough scores it would actually appear
+that restaurants are actually getting worse (they were all negative). 
+
+Question 6:
+The additional information not related to inspection grades is information about the restaurants along the lines of name, phone number, cuisine and a few other fields.
+In terms of 'quality' we don't get any details about the quality of the food, only the inspection scores a restaurant received and the violations associated with them.
+If we were interested in the scores across New York City we definitely have some data that can help, but it doesn't feel like this dataset is a comprehensive set of
+all scores for all restaurants in NYC, so we only have a subset. Therefore, perhaps we won't have a full picture of the inspection scores across NYC, and our view will
+be skewed. Not to mention, often a restaurant will have several inspections within a short span of time if they are found to have violations that need improvement, and
+our data may be dominated by these types of restaurants.
