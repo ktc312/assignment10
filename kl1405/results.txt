@@ -1,0 +1,5 @@
+Q5) According to the plots, we can see that the amount of grade A are expanding for both nyc as a whole or in each boro. Therefore we can say that the grading system motivates resturant improving their quality
+
+Q6) There are many other information we can find out using this data. For example, using the cuisine column with our test_Grades function, we can see which cuisine presents the best quality. Also, for some large resturant chains we can see their quality at different boros.
+
+I think this data is useful for assessing the quality of new york city, for example, if a resturant constantly graded below A, then this kind of restuant can be considered as bad quality resturant because they are likely not working for a higher grade. On the opposite resturants that constantly graded as A can be considered as high quality resturants. Using this logic, we can have a close look at the quality of new york resturant.
